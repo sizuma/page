@@ -1,0 +1,4 @@
+$(() => {
+	$('.sidenav').sidenav();
+	$('.collapsible').collapsible();
+})
