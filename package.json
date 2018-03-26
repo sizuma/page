@@ -1,0 +1,22 @@
+{
+  "name": "page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "find ./ -name '*.ejs' | grep -v './part/' | xargs ejs-cli -o ./html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sizuma/page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sizuma/page/issues"
+  },
+  "homepage": "https://github.com/sizuma/page#readme",
+  "dependencies": {
+    "ejs-cli": "^2.0.1"
+  }
+}
