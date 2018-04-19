@@ -1,4 +1,0 @@
-$(() => {
-	$('.sidenav').sidenav();
-	$('.collapsible').collapsible();
-})

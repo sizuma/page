@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<%
+    const techCard = (iconURL, title, content) => {
+        return `
+            <div class="col s4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="${iconURL}">
+                        <span class="card-title">${title}</span>
+                    </div>
+                    <div class="card-content">
+                        <p>${content}</p>
+                    </div>
+                </div>
+            </div> 
+        `
+    }
+%>
+<html>
+
+    <head>
+        <%- include('./part/head') %>
+        <link rel="stylesheet" href="/css/index.css">
+    </head>
+
+    <body>
+        <main>
+            <%- include('./part/sideNav') %>
+            <div class="container">
+                <div class="row">
+                    <%- techCard('https://nodejs.org/static/images/logos/nodejs-new-pantone-black.ai', 'Nodejs', '') %>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
