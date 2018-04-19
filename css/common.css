@@ -2,3 +2,7 @@
 	color: black;
 	font-size: 32px;
 }
+
+@media only screen and (max-width: 992px) .container {
+	margin-left: 300px
+}
